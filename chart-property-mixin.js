@@ -36,7 +36,7 @@ export const ChartPropertyMixin = function(superClass) {
 
     render() {
       return html`
-        <canvas id="canvas"></canvas>
+        <div style="height:100%"><canvas id="canvas"></canvas></div>
       `;
     }
 
